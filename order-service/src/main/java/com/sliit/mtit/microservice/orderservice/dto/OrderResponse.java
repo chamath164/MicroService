@@ -3,6 +3,7 @@ package com.sliit.mtit.microservice.orderservice.dto;
 public class OrderResponse {
 
     private String orderId;
+    private String userId;
     private String message;
 
     public String getOrderId() {
@@ -19,5 +20,13 @@ public class OrderResponse {
 
     public void setMessage(String message) {
         this.message = message;
+    }
+
+    public String getUserId() {
+        return userId;
+    }
+
+    public void setUserId(String userId) {
+        this.userId = userId;
     }
 }
